@@ -30,7 +30,7 @@ public class Graf {
      * @param cs1 Az él egyik pontja
      * @param cs2 Az él másik pontja
      */
-    void hozzaad(int cs1, int cs2) {
+    public void hozzaad(int cs1, int cs2) {
         if (cs1 < 0 || cs1 >= csucsokSzama ||
             cs2 < 0 || cs2 >= csucsokSzama) {
             throw new IndexOutOfBoundsException("Hibas csucs index");
